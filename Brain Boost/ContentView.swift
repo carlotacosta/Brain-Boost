@@ -10,13 +10,34 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack(alignment: .leading) {
+            HStack() {
                 Image("logo1")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
-                    .frame(width: 130.0, height: 130.0)
+                    .frame(width: 120.0, height: 120.0)
+                Spacer()
+                
             }
+            .padding()
+            
+            Text("Hello John, What would you like to do today?")
+                .fontWeight(.bold)
+                .font(.largeTitle)
+                .multilineTextAlignment(.center)
+            Spacer()
+            
+            Button("Study Method") {
+                
+            }
+            Spacer()
+            
+            Button("Timer") {
+                
+            }
+            
+            
+            
         }
     }
 }
