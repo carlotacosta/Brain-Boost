@@ -9,36 +9,54 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            HStack() {
-                Image("logo1")
-                    .resizable(resizingMode: .stretch)
-                    .aspectRatio(contentMode: .fit)
-                    .padding()
-                    .frame(width: 120.0, height: 120.0)
+        NavigationStack{
+            VStack {
+                HStack() {
+                    Image("logo1")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
+                        .frame(width: 120.0, height: 120.0)
+                    Spacer()
+                    
+                }
+                .padding()
+                
+                Text("Hello John, What would you like to do today?")
+                    .fontWeight(.bold)
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
                 Spacer()
                 
-            }
-            .padding()
-            
-            Text("Hello John, What would you like to do today?")
-                .fontWeight(.bold)
-                .font(.largeTitle)
-                .multilineTextAlignment(.center)
-            Spacer()
-            
-            Button("Study Method") {
+                Button("Study Method") {
+                    
+                }
+                Spacer()
+                
+                Button("Timer") {
+                    
+                }
+                Spacer()
+                
+                Button("Timer") {
+                    
+                }
+                Spacer()
+                
+                Button("Timer") {
+                    
+                }
+                Spacer()
+                
+                Button("Timer") {
+                    
+                }
+                
+                
                 
             }
-            Spacer()
-            
-            Button("Timer") {
-                
-            }
-            
-            
-            
         }
+            
     }
 }
 
