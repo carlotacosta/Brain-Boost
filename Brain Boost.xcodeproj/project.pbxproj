@@ -16,6 +16,11 @@
 		C86954E12A7ADF4D00246F32 /* forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E02A7ADF4D00246F32 /* forum.swift */; };
 		C86954E32A7ADF6100246F32 /* planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E22A7ADF6100246F32 /* planner.swift */; };
 		C86954E52A7ADFA100246F32 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E42A7ADFA100246F32 /* toDo.swift */; };
+		C86954E72A7AF2ED00246F32 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E62A7AF2ED00246F32 /* NewToDoView.swift */; };
+		C86954E92A7AF32900246F32 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E82A7AF32900246F32 /* ToDoItem.swift */; };
+		C86954EB2A7AF36400246F32 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954EA2A7AF36400246F32 /* Persistence.swift */; };
+		C86954F02A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C86954EE2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */; };
+		C86954F42A7AFD7D00246F32 /* methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954F32A7AFD7D00246F32 /* methods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,12 @@
 		C86954E02A7ADF4D00246F32 /* forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = forum.swift; path = "../../../Desktop/XCode Projects/forum.swift"; sourceTree = "<group>"; };
 		C86954E22A7ADF6100246F32 /* planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = planner.swift; path = "../../../Desktop/XCode Projects/planner.swift"; sourceTree = "<group>"; };
 		C86954E42A7ADFA100246F32 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = toDo.swift; path = "../../../Desktop/XCode Projects/toDo.swift"; sourceTree = "<group>"; };
+		C86954E62A7AF2ED00246F32 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewToDoView.swift; path = "../../../Desktop/XCode Projects/NewToDoView.swift"; sourceTree = "<group>"; };
+		C86954E82A7AF32900246F32 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToDoItem.swift; path = "../../../Desktop/XCode Projects/ToDoItem.swift"; sourceTree = "<group>"; };
+		C86954EA2A7AF36400246F32 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../Desktop/XCode Projects/Persistence.swift"; sourceTree = "<group>"; };
+		C86954EF2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Key_IterationTwo_ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		C86954F22A7AF4BA00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Key_IterationTwo_ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		C86954F32A7AFD7D00246F32 /* methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = methods.swift; path = "../../../Desktop/XCode Projects/methods.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +72,21 @@
 		158F46D22A78611B0022A97E /* Brain Boost */ = {
 			isa = PBXGroup;
 			children = (
+				C86954ED2A7AF39D00246F32 /* To-Do */,
+				C86954E42A7ADFA100246F32 /* toDo.swift */,
+				C86954EA2A7AF36400246F32 /* Persistence.swift */,
+				C86954E62A7AF2ED00246F32 /* NewToDoView.swift */,
+				C86954E82A7AF32900246F32 /* ToDoItem.swift */,
 				158F46D32A78611B0022A97E /* Brain_BoostApp.swift */,
 				158F46D52A78611B0022A97E /* ContentView.swift */,
 				C86954DE2A7ADF1F00246F32 /* timer.swift */,
 				C86954E02A7ADF4D00246F32 /* forum.swift */,
 				C86954E22A7ADF6100246F32 /* planner.swift */,
-				C86954E42A7ADFA100246F32 /* toDo.swift */,
 				C86954DC2A7ADE7800246F32 /* studyMethod.swift */,
+				C86954F32A7AFD7D00246F32 /* methods.swift */,
 				158F46D72A78611F0022A97E /* Assets.xcassets */,
 				158F46D92A78611F0022A97E /* Preview Content */,
+				C86954EE2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */,
 			);
 			path = "Brain Boost";
 			sourceTree = "<group>";
@@ -77,9 +94,17 @@
 		158F46D92A78611F0022A97E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C86954F12A7AF4B800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */,
 				158F46DA2A78611F0022A97E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C86954ED2A7AF39D00246F32 /* To-Do */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "To-Do";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +179,16 @@
 			files = (
 				C86954DD2A7ADE7800246F32 /* studyMethod.swift in Sources */,
 				158F46D62A78611B0022A97E /* ContentView.swift in Sources */,
+				C86954E92A7AF32900246F32 /* ToDoItem.swift in Sources */,
+				C86954F02A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld in Sources */,
 				158F46D42A78611B0022A97E /* Brain_BoostApp.swift in Sources */,
 				C86954E12A7ADF4D00246F32 /* forum.swift in Sources */,
 				C86954E32A7ADF6100246F32 /* planner.swift in Sources */,
 				C86954DF2A7ADF1F00246F32 /* timer.swift in Sources */,
+				C86954F42A7AFD7D00246F32 /* methods.swift in Sources */,
 				C86954E52A7ADFA100246F32 /* toDo.swift in Sources */,
+				C86954E72A7AF2ED00246F32 /* NewToDoView.swift in Sources */,
+				C86954EB2A7AF36400246F32 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +387,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C86954EE2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C86954EF2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */,
+			);
+			currentVersion = C86954EF2A7AF43E00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */;
+			name = Key_IterationTwo_ToDoList.xcdatamodeld;
+			path = "../../../Desktop/XCode Projects/Key_IterationTwo_ToDoList.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		C86954F12A7AF4B800246F32 /* Key_IterationTwo_ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C86954F22A7AF4BA00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */,
+			);
+			currentVersion = C86954F22A7AF4BA00246F32 /* Key_IterationTwo_ToDoList.xcdatamodel */;
+			path = Key_IterationTwo_ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 158F46C82A78611B0022A97E /* Project object */;
 }
