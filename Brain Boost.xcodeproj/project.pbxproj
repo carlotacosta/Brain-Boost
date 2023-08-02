@@ -11,6 +11,11 @@
 		158F46D62A78611B0022A97E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158F46D52A78611B0022A97E /* ContentView.swift */; };
 		158F46D82A78611F0022A97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158F46D72A78611F0022A97E /* Assets.xcassets */; };
 		158F46DB2A78611F0022A97E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158F46DA2A78611F0022A97E /* Preview Assets.xcassets */; };
+		C86954DD2A7ADE7800246F32 /* studyMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954DC2A7ADE7800246F32 /* studyMethod.swift */; };
+		C86954DF2A7ADF1F00246F32 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954DE2A7ADF1F00246F32 /* timer.swift */; };
+		C86954E12A7ADF4D00246F32 /* forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E02A7ADF4D00246F32 /* forum.swift */; };
+		C86954E32A7ADF6100246F32 /* planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E22A7ADF6100246F32 /* planner.swift */; };
+		C86954E52A7ADFA100246F32 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86954E42A7ADFA100246F32 /* toDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		158F46D52A78611B0022A97E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		158F46D72A78611F0022A97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		158F46DA2A78611F0022A97E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C86954DC2A7ADE7800246F32 /* studyMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = studyMethod.swift; path = "../../../Desktop/XCode Projects/studyMethod.swift"; sourceTree = "<group>"; };
+		C86954DE2A7ADF1F00246F32 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timer.swift; path = "../../../Desktop/XCode Projects/timer.swift"; sourceTree = "<group>"; };
+		C86954E02A7ADF4D00246F32 /* forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = forum.swift; path = "../../../Desktop/XCode Projects/forum.swift"; sourceTree = "<group>"; };
+		C86954E22A7ADF6100246F32 /* planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = planner.swift; path = "../../../Desktop/XCode Projects/planner.swift"; sourceTree = "<group>"; };
+		C86954E42A7ADFA100246F32 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = toDo.swift; path = "../../../Desktop/XCode Projects/toDo.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				158F46D32A78611B0022A97E /* Brain_BoostApp.swift */,
 				158F46D52A78611B0022A97E /* ContentView.swift */,
+				C86954DE2A7ADF1F00246F32 /* timer.swift */,
+				C86954E02A7ADF4D00246F32 /* forum.swift */,
+				C86954E22A7ADF6100246F32 /* planner.swift */,
+				C86954E42A7ADFA100246F32 /* toDo.swift */,
+				C86954DC2A7ADE7800246F32 /* studyMethod.swift */,
 				158F46D72A78611F0022A97E /* Assets.xcassets */,
 				158F46D92A78611F0022A97E /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86954DD2A7ADE7800246F32 /* studyMethod.swift in Sources */,
 				158F46D62A78611B0022A97E /* ContentView.swift in Sources */,
 				158F46D42A78611B0022A97E /* Brain_BoostApp.swift in Sources */,
+				C86954E12A7ADF4D00246F32 /* forum.swift in Sources */,
+				C86954E32A7ADF6100246F32 /* planner.swift in Sources */,
+				C86954DF2A7ADF1F00246F32 /* timer.swift in Sources */,
+				C86954E52A7ADFA100246F32 /* toDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

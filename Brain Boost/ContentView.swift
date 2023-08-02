@@ -22,41 +22,75 @@ struct ContentView: View {
                 }
                 .padding()
                 
-                Text("Hello John, What would you like to do today?")
+                Text("Hello John, what would you like to do today?")
                     .fontWeight(.bold)
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
                 Spacer()
                 
-                Button("Study Method") {
+                VStack{
+                    NavigationLink(destination: studyMethod()) {
+                        Text("Study Method")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                    }
+                    .padding(90)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
                     
-                }
-                Spacer()
-                
-                Button("Timer") {
+                    NavigationLink(destination: timer()) {
+                        Text("Timer")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                    }
+                    .padding(90)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
                     
-                }
-                Spacer()
-                
-                Button("Timer") {
+                    NavigationLink(destination: forum()) {
+                        Text("Forum")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                    }
+                    .padding(90)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
                     
-                }
-                Spacer()
-                
-                Button("Timer") {
+                    NavigationLink(destination: planner()) {
+                        Text("Planner")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                    }
+                    .padding(90)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
                     
-                }
-                Spacer()
-                
-                Button("Timer") {
+                    NavigationLink(destination: toDo()) {
+                        Text("To-do")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                    }
+                    .padding(90)
+                    .background(.black)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .cornerRadius(10)
                     
+
                 }
                 
                 
                 
             }
         }
-            
     }
 }
 
