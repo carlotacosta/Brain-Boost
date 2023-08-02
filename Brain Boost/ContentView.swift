@@ -18,71 +18,91 @@ struct ContentView: View {
                         .padding()
                         .frame(width: 120.0, height: 120.0)
                     Spacer()
+                        .frame(height: 80.0)
                     
                 }
                 .padding()
+                Spacer()
+                    .frame(height: 10.0)
                 
                 Text("Hello John, what would you like to do today?")
                     .fontWeight(.bold)
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal, 60.0)
                 Spacer()
+                    .frame(height: 30.0)
                 
                 VStack{
                     NavigationLink(destination: studyMethod()) {
-                        Text("Study Method")
-                            .font(.headline)
+                        Text("Methods")
+                            .font(.title3)
                             .fontWeight(.bold)
+                            .padding(.horizontal, 90)
                     }
-                    .padding(90)
+                    .padding(15)
                     .background(.black)
                     .foregroundColor(.white)
                     .font(.headline)
                     .cornerRadius(10)
+                    Spacer()
+                        .frame(height: 30.0)
                     
                     NavigationLink(destination: timer()) {
                         Text("Timer")
-                            .font(.headline)
+                            .font(.title3)
                             .fontWeight(.bold)
+                            .padding(.horizontal, 103)
                     }
-                    .padding(90)
+                    .padding(15)
                     .background(.black)
                     .foregroundColor(.white)
                     .font(.headline)
                     .cornerRadius(10)
+                    Spacer()
+                        .frame(height: 30.0)
                     
                     NavigationLink(destination: forum()) {
                         Text("Forum")
-                            .font(.headline)
+                            .font(.title3)
                             .fontWeight(.bold)
+                            .padding(.horizontal, 100)
                     }
-                    .padding(90)
+                    .padding(15)
                     .background(.black)
                     .foregroundColor(.white)
                     .font(.headline)
                     .cornerRadius(10)
+                    Spacer()
+                        .frame(height: 30.0)
                     
                     NavigationLink(destination: planner()) {
                         Text("Planner")
-                            .font(.headline)
+                            .font(.title3)
                             .fontWeight(.bold)
+                            .padding(.horizontal, 95)
                     }
-                    .padding(90)
+                    .padding(15)
                     .background(.black)
                     .foregroundColor(.white)
                     .font(.headline)
                     .cornerRadius(10)
+                    Spacer()
+                        .frame(height: 30.0)
                     
                     NavigationLink(destination: toDo()) {
                         Text("To-do")
-                            .font(.headline)
+                            .font(.title3)
                             .fontWeight(.bold)
+                            .padding(.horizontal, 103)
                     }
-                    .padding(90)
+                    .padding(15)
                     .background(.black)
                     .foregroundColor(.white)
                     .font(.headline)
                     .cornerRadius(10)
+                    Spacer()
+                        .frame(height: 50.0)
                     
 
                 }
