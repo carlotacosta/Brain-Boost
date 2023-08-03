@@ -21,9 +21,9 @@ struct ContentView: View {
                         .frame(height: 80.0)
                     
                 }
-                .padding()
+
                 Spacer()
-                    .frame(height: 10.0)
+                    .frame(height: 0.0)
                 
                 Text("Hello John, what would you like to do today?")
                     .fontWeight(.bold)
